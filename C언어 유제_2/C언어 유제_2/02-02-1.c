@@ -1,0 +1,8 @@
+#include <stdio.h>
+int main()
+{
+	printf("%s : %d\n", "Red Devil", sizeof("Red Devil"));
+	printf("%s : %d\n", "ºÓÀº ¾Ç¸¶", sizeof("ºÓÀº ¾Ç¸¶"));
+	printf("%s : %d\n", "Korea", sizeof("Korea"));
+	printf("%s : %d\n", "", sizeof("")); //³Î°ª ¶§¹®¿¡ 1³ª¿È (³ª¸ÓÁöµéµµ)
+}
